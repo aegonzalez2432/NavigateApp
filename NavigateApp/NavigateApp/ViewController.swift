@@ -55,6 +55,8 @@ extension ViewController: UITableViewDataSource {
         cell.label.text = self.data[indexPath.row]
         cell.progressBar.setProgress(Float((self.playerRating[indexPath.row])/100), animated: true)
         cell.navigationPressed(self)
+        cell.updateButton = "PPG: \(ppg[indexPath.row])"
+        cell.reloadInputViews()
         //if(cell.navigationPressed(self)){
         //}
 //        if sender.selectedSegmentIndex == 0 {

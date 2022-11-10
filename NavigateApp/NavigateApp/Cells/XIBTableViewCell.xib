@@ -59,6 +59,7 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
+                <outlet property="button" destination="pkd-IQ-8Mx" id="JV3-X1-I7q"/>
                 <outlet property="label" destination="2vm-b4-Wud" id="bvU-Sd-Eo4"/>
                 <outlet property="progressBar" destination="f2x-Zv-CQC" id="JfT-9J-Izs"/>
                 <outlet property="seeMe" destination="ULV-ye-Z7X" id="my7-Ya-JDZ"/>
